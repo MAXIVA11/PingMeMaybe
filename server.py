@@ -34,7 +34,7 @@ def log_exit(msg):
     console.print(f"{timestamp} [bold red][x][/bold red] {msg}")
 
 def print_banner():
-    banner = Text("PING SMUGGLER SERVER", style="bold magenta")
+    banner = Text("PingMeMaybe", style="bold magenta")
     panel = Panel(banner, style="magenta", expand=False, border_style="bright_magenta")
     console.print(panel)
 
