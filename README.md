@@ -59,7 +59,7 @@ Run the PowerShell client script on a Windows machine with the following paramet
 
 - PowerShell 7+ is recommended for AES-GCM support; if unavailable, the script falls back to AES-CBC+HMAC encryption.
 
-- Make sure ICMP echo requests are allowed through firewalls on both client and serve
+- Make sure ICMP echo requests are allowed through firewalls on both client and server
 
 ## Photos
 
