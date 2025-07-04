@@ -1,6 +1,6 @@
 # PingMeMaybe👻
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 ![PowerShell](https://img.shields.io/badge/PowerShell-teal?logo=powershell&logoColor=white) 
 ![Python](https://img.shields.io/badge/Python-yellowgreen?logo=python&logoColor=white)
 
