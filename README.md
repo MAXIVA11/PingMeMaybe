@@ -27,6 +27,7 @@ Clone the repository or download the scripts manually:
 ```bash
 git clone https://github.com/MAXIVA11/PingMeMaybe.git
 cd PingMeMaybe
+pip install -r requirements.txt
 ```
  
 ## Usage
