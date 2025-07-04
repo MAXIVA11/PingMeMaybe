@@ -61,6 +61,12 @@ Run the PowerShell client script on a Windows machine with the following paramet
 
 - Make sure ICMP echo requests are allowed through firewalls on both client and server
 
+- If you get a **"running scripts is disabled"** error in PowerShell, temporarily bypass the execution policy with:
+
+  ```powershell
+  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+  ```
+
 ## Photos
 
 ### Server Console Example
