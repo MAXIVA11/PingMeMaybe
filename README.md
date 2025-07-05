@@ -64,7 +64,7 @@ Run the PowerShell client script on a Windows machine with the following paramet
 - If you get a **"running scripts is disabled"** error in PowerShell, temporarily bypass the execution policy with:
 
   ```powershell
-  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
   ```
 
 ## Photos
