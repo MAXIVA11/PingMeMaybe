@@ -204,4 +204,3 @@ for ($i = 0; $i -lt $totalChunks; $i++) {
     Write-Progress -Activity "Sending $File" -Status "$($i + 1)/$totalChunks" -PercentComplete ((($i + 1) / $totalChunks) * 100)
 }
 
-Write-Host "Done"
