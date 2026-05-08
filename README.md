@@ -11,7 +11,7 @@
 ## Overview
 
 PingMeMaybe is a stealthy, encrypted file exfiltration tool leveraging ICMP echo request packets (ping) to covertly transmit files between a Windows client (PowerShell) and a server (Python).  
-This tool is designed for red teamers and penetration testers who want to simulate data exfiltration via ICMP — a commonly allowed protocol that can bypass many firewall rules.
+This tool is designed for red teamers and penetration testers who want to simulate data exfiltration via ICMP a commonly allowed protocol that can bypass many firewall rules.
 
 ## Installation
 
