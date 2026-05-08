@@ -40,7 +40,7 @@ Run the Python server script with root privileges to listen for incoming ICMP pa
 sudo python3 server.py
 ```
 On startup, the server will generate and display a random AES-GCM key.
-Copy this key exactly as shown — you will need it on the client side.
+**Copy this key exactly as shown you will need it on the client side**.
 
 ### Client
 
